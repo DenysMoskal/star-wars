@@ -1,0 +1,43 @@
+.input{ 
+  min-width: 300px; 
+  padding: 10px 15px ;
+  padding-right: 50px;
+
+  border: 3px solid var(--color-light-gray);
+  border-radius: 3px; 
+  font-size: 16px;
+  font-family: sans-serif;
+  outline: none;
+}
+
+.input:focus{ 
+  border: 3px solid #6a83fb; 
+}
+
+.wrapper__input{ 
+  --border-radius: 3px; 
+  --border: 3px; 
+  --clear-width: 35px; 
+
+  position: relative;
+  display: inline-flex;
+}
+
+.clear{
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 35px;
+  height: calc(100% - 6px);
+  padding: 3px;
+  object-fit: contain;
+  object-position: center center;
+  transition: .5s;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.clear__none{ 
+  opacity: .2; 
+  cursor: default;
+}

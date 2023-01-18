@@ -1,0 +1,16 @@
+.link{ 
+margin: var(--spacing-small);
+}
+
+.main{ 
+  display: flex;
+  justify-content: center;
+}
+
+.header__text {
+  line-height: 1.7;
+  font-size: var(--font-size-header);
+  text-shadow: 0 0 2px var(--color-black);
+  color: var(--theme-default-header);
+  transition: color var(--transition);
+}

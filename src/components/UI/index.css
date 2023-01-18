@@ -1,0 +1,12 @@
+:root {
+  --font-size-small: 14px;
+  --font-famali-main: sans-serif;
+  --font-bold: 600
+
+  --color-light-gray: #dfe2df; 
+}
+
+*, *:after, *:before { 
+  box-sizing: border-box;
+  
+}
